@@ -1,0 +1,18 @@
+{
+  "name": "cosola.org",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosola/cosola.org/issues"
+  },
+  "homepage": "https://github.com/cosola/cosola.org#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.1"
+  }
+}
