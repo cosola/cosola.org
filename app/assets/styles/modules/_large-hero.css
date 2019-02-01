@@ -1,0 +1,64 @@
+.large-hero {
+	border-bottom: 10px solid $mainBlue;
+	position: relative;
+
+	&__image {
+		display: block;  /*making image a block level element */
+	}
+
+/*postion text on top of image. Styling text using BEM */
+
+	&__text-content {
+		position: absolute;
+		top: 40%;
+		transition: translateY(-50%);
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	/*Styling the text; eliminate space between titles*/
+	/*Following mobile first design */
+
+	&__title {
+		font-weight: 300;
+		color: $mainBlue;
+		font-size: 1.95rem;
+		margin: 0;
+
+		@mixin atSmall {
+			font-size: 3.3rem;
+		}
+
+	}
+
+	&__subtitle {
+		font-weight: 300;
+		color: $mainBlue;
+		font-size: 1.1rem;
+		margin: 0;
+
+		@mixin atSmall {
+			font-size: 1.675rem;
+		}
+	}
+
+	&__description {
+		color: #fff;
+		font-size: 1.0rem;
+		font-weight: 100;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.10);
+		max-width: 23.75rem;
+		margin-right: auto;
+		margin-left: auto;
+
+		@mixin atSmall {
+			font-size: 1.425rem;
+		}
+
+	}
+
+
+}
+
+
